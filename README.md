@@ -7,60 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# Projeto CRUD Básico
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Bem-vindo ao projeto CRUD Básico! Este repositório contém o código-fonte para um CRUD simples em Laravel.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Clonando o Projeto
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Para começar a contribuir ou apenas testar o projeto em seu ambiente local, siga estas etapas simples:
 
-## Learning Laravel
+1. Abra seu terminal (ou prompt de comando).
+2. Navegue até o diretório onde deseja clonar o projeto.
+3. Execute o seguinte comando:
+```bash
+git clone https://github.com/seu_usuario/crud-basico-laravel.git
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+````
+Configurando o Ambiente
+Antes de executar o projeto localmente, você precisará configurar o arquivo .env. Este arquivo contém variáveis de ambiente que são usadas para configurar o ambiente de desenvolvimento. Felizmente, o framework que estamos usando, Laravel, torna isso muito fácil.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Navegue até o diretório do projeto clonado no terminal.
+Dentro do diretório do projeto, você encontrará um arquivo chamado .env.example. Faça uma cópia deste arquivo e renomeie-a para .env:
+cd .env.example .env
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Agora, abra o arquivo .env em um editor de texto e preencha as variáveis ​​com os valores apropriados, como credenciais de banco de dados, configurações de e-mail, etc.
+Após preencher as variáveis, salve e feche o arquivo.
+O Laravel vem com uma ferramenta de linha de comando chamada Artisan, que simplifica muitas tarefas comuns de desenvolvimento. Aqui estão alguns comandos úteis do Artisan:
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+php artisan serve: Inicia um servidor de desenvolvimento local.
+php artisan migrate: Executa as migrações de banco de dados pendentes.
+php artisan make:model NomeDoModelo: Cria um novo modelo.
+php artisan make:controller NomeDoControlador: Cria um novo controlador.
+php artisan make:middleware NomeDoMiddleware: Cria um novo middleware.
