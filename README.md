@@ -33,8 +33,8 @@ Agora, abra o arquivo .env em um editor de texto e preencha as variáveis ​​
 Após preencher as variáveis, salve e feche o arquivo.
 O Laravel vem com uma ferramenta de linha de comando chamada Artisan, que simplifica muitas tarefas comuns de desenvolvimento. Aqui estão alguns comandos úteis do Artisan:
 
-php artisan serve: Inicia um servidor de desenvolvimento local.
-php artisan migrate: Executa as migrações de banco de dados pendentes.
-php artisan make:model NomeDoModelo: Cria um novo modelo.
-php artisan make:controller NomeDoControlador: Cria um novo controlador.
-php artisan make:middleware NomeDoMiddleware: Cria um novo middleware.
+1. php artisan serve: Inicia um servidor de desenvolvimento local.
+2. php artisan migrate: Executa as migrações de banco de dados pendentes.
+3. php artisan make:model NomeDoModelo: Cria um novo modelo.
+4. php artisan make:controller NomeDoControlador: Cria um novo controlador.
+5. php artisan make:middleware NomeDoMiddleware: Cria um novo middleware.
